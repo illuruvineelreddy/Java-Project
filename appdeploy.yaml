@@ -16,7 +16,7 @@
         dest: /usr/local/apache-tomcat-7.0.76/webapps/maven-web-application.war
         owner: tomcat
         group: tomcat
-    - name: start tomcat
+    - name: start tomcat  
       systemd:
         name: tomcat.service
         state: started
